@@ -38,7 +38,7 @@ staff with these combinations of skills is both challenging and costly.
 <br>
 
 ## Enormous Leverage Opportunity
-![VisIt Data Flow](/img/Wikibon-big-data-forecast-2016.jpg)
+![VisIt Data Flow](/kvmesh/img/Wikibon-big-data-forecast-2016.jpg)
 
 The graph here represents world-wide investments and projected investments in Big Data
 infrastructure software, hardware, and support services.
