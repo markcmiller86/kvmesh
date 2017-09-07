@@ -24,7 +24,7 @@ as two lists.
 
 <br>
 
-![Mesh](/img/mesh_nodes_elems.png)
+![Mesh](/kvmesh/img/mesh_nodes_elems.png)
  
 <br>
 
@@ -47,7 +47,7 @@ Note the ordering of the points in the lists defining each polygonal element in 
 The ordering is based on the _right-hand-rule_. The points are ordered in the direction the
 tips of your fingers curl when holding your right with thumb perpendicular to the page and towards you.
 
-![Mesh](/img/right_hand_rule.png)
+![Mesh](/kvmesh/img/right_hand_rule.png)
 
 <br> 
 

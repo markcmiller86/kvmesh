@@ -63,7 +63,7 @@ _data sciences_ whereas high performance computing programs are getting scarcer.
 <br>
 
 ## Visualization **is** Data Analysis
-![VisIt Data Flow](/img/visit_line_counts.jpg)
+![VisIt Data Flow](/kvmesh/img/visit_line_counts.jpg)
 
 The picture here illustrates a rough architectural data-flow model for how visualization tools
 and VisIt in particular process data.
@@ -96,7 +96,7 @@ if similar experiences hold for other tools.
 <br>
 
 ## Visualization **as** Database Query
-![VisIt Just Tolerable Query Latencies](/img/visit_jtql.jpg)
+![VisIt Just Tolerable Query Latencies](/kvmesh/img/visit_jtql.jpg)
 
 [_Techopedia_](https://www.techopedia.com) defines _database query_ as
 > a request for data or information from a database [...].
@@ -128,7 +128,7 @@ the data flow. This is important because it is here that Big Data, although late
 <br>
 
 ## Apply Big Data where it Fits
-![Just Tolerable Query Latency](/img/visit_big_data_hybrid.jpg)
+![Just Tolerable Query Latency](/kvmesh/img/visit_big_data_hybrid.jpg)
 
 So far, research into the application of big data technologies for scientific
 visualization has too frequently focused on either just the rendering end alone
