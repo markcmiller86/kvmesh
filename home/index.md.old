@@ -1,0 +1,22 @@
+---
+layout: page_full
+featimg: sci_data_2.jpg
+title: What is KVMesh?
+---
+KVMesh is an example of scientific computing data stored as a large folder hierarchy
+of CSV, key-value files to facilitate processing by big data analytics technologies
+like [Apache Spark](http://spark.apache.org) or [Hadoop](http://hadoop.apache.org).
+
+<br>
+ 
+Unlike unstructured text typical of big data applications, scientific computing data
+is highly structured with many logical, geometrical and mathematical relationships some
+of which are illustrated in the pictures here. Algorithms to process scientific data
+must take these relationships into account. This makes KVMesh a somewhat unique
+database to try to work with using big data technologies.
+
+<br>
+ 
+We have created the KVMesh database and codebase to share and encourage research and
+development of data analytics approaches to scientific data query, analysis and
+visualization.
