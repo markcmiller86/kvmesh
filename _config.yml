@@ -1,7 +1,7 @@
 name: KvMesh
 description: An exemplar key-value store for mesh-based scientific data
 url: https://markcmiller86.github.io
-baseurl: kvmesh
+baseurl: /kvmesh
 permalink: /:title/
 paginate: 8
 paginate_path: /page/:num/
