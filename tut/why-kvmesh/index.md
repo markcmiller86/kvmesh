@@ -4,7 +4,7 @@ title: Why KVMesh?
 ---
 We have created the KVMesh database to encourage research on the application of Big Data
 technologies to HPC problems with emphasis on the data analysis activities
-traditionally performed with visualization and analysis tools such as [VisIt](visit.llnl.gov),
+traditionally performed with visualization and analysis tools such as [VisIt](http://visit.llnl.gov),
 [EnSight](https://www.ensight.com), or [ParaView](http://www.paraview.org).
 
 <br>
