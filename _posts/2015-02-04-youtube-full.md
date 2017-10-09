@@ -2,7 +2,7 @@
 author: someone
 layout: post_full
 type: youtube
-yt-video-id: hPX9h5OrlhU
+yt-video-id: bzy0qRcdG5M 
 homedisplay: iframe
 title: YouTube full
 tags: [video, music, iframe]
@@ -16,7 +16,7 @@ For a YouTube video, no embedding code is required, it all works through the vid
 ---
 layout: post_full
 type: youtube
-yt-video-id: hPX9h5OrlhU
+yt-video-id: bzy0qRcdG5M 
 homedisplay: iframe
 ---
 ```
