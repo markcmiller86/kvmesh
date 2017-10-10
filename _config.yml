@@ -29,7 +29,7 @@ kramdown:
 relative_permalinks: false
 exclude: [.git, .gitignore, sass, .sass-cache, package.json, gruntfile.js, node_modules, README.md, documentation]
 
-# prose.io configurations
+# prose.io configurations 
 prose:
   media: "img"
   metadata:
