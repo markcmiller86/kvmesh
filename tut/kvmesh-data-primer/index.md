@@ -1,8 +1,12 @@
 ---
 layout: page_full
-featimg: csv_folder_hierarchy.png
 title: KVMesh Data Primer
 ---
+
+|:---:|
+|[<img src="/img/csv_folder_hierarchy.png" width="400">](/img/csv_folder_hierarchy.png)|
+||
+
 The KVMesh database is designed to meaningfully represent data as though it spans the entire
 [DOE Complex](https://www.google.com/maps/d/viewer?mid=1k6BA3nD5tqE98OettUjwjX91UOE&hl=en_US&ll=39.84380152391495%2C-97.53683650000005&z=4)
 in a coherent and uniform way. The idea of a single, coherent database that spans the
@@ -18,14 +22,10 @@ data is scattered about in computer files of various formats, tape archives, mic
 film, blueprints, as well as hand user's notebooks.
 -->
 
-<br>
-
 In a nutshell, the KVMesh database is a massive folder hierarchy of
 [Bzip](https://en.wikipedia.org/wiki/Bzip2) compressed 
 [CSV](https://en.wikipedia.org/wiki/Comma-separated_values)
 text files. The hierarchy is based on these observations...
-
-<br>
 
 * DOE sites have _Computing Centers_
 * Computing Centers have _Users_
@@ -34,6 +34,9 @@ text files. The hierarchy is based on these observations...
 * States have _Meshes_
 * Meshes have _Blocks_
 * Blocks have _Data_
+  * Mesh topology (connectivity)
+  * Materials
+  * Fields
 
 <br>
 
@@ -43,8 +46,6 @@ _coordinates_ of a block, _fields_ (e.g. pressure, velocity, mass) defined on a
 block, the _material decomposition_ of a block, etc. In particular,
 each topological entity is _uniquely_ identified across the _entire_ KVMesh database.
 
-<br>
-
 By setting upper bounds on the total number of objects to be permitted in each of these
 categories, we can establish an upper bound on the total number of bits required in a
 mesh entity _key_ to uniquely identify it across the entire KVMesh database. By proper
@@ -53,8 +54,6 @@ came from, which computing center at that site, which user at that center, which
 that user, which state of that dataset, which mesh of that state and which block of
 that mesh.
 
-<br>
-
 With this over-arching design, we enable a Big Data workflow with the ability to perform queries
 of arbitrary _scope_. The underlying Big Data machinery required to perform any query of any
 scope is basically the same and is independent of scope. The only difference is the compute
@@ -62,8 +61,6 @@ resources required to respond in a given target time constraint. For example, a 
 maximum temperature of one user's dataset for one state vs. the maximum temperature over
 all states vs. the maximum temperature over several different datasets is the _same_ query
 except executed from different points in the folder hierarchy.
-
-<br>
 
 We plan to present more details here on this page at
 a future data. Until then, please refer to

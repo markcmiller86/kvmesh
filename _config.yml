@@ -1,8 +1,6 @@
 name: KvMesh
 description: An exemplar key-value store for mesh-based scientific data
-#url: https://markcmiller86.github.io
 url: https://www.kvmesh.org
-#baseurl: /kvmesh
 baseurl:
 permalink: /:title/
 paginate: 8
@@ -11,7 +9,7 @@ tag_dir: /tag
 category_dir: /category
 author_dir: /author
 author_title_prefix: 'Posted by '
-media_folder: /img
+media_folder: /foo
 author_default_avatar: /sci_data_2.jpg
 
 encoding: utf-8
@@ -24,10 +22,10 @@ defaults:
       layout: "post"
       type: "standard"
       homedisplay: "featimg"
-markdown: kramdown
-kramdown:
-  input: GFM
-  syntax_highlighter: rouge
+#markdown: kramdown
+#kramdown:
+#  input: GFM
+#  syntax_highlighter: rouge
 relative_permalinks: false
 exclude: [.git, .gitignore, sass, .sass-cache, package.json, gruntfile.js, node_modules, README.md, documentation]
 

@@ -1774,6 +1774,10 @@ i, em {
   position: relative;
   margin: 0px auto; }
 
+p {
+    margin-bottom: 25px;
+}
+
 html, body {
   font-family: "Roboto", "Calibri", "Arial", sans-serif;
   font-size: 20px;
