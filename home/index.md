@@ -9,12 +9,10 @@ for processing by Big Data technologies such as
 
 As the pictures below illustrate, mesh-based scientific data has well a defined data model,
 is highly structured and often rich and diverse in logical, geometrical and mathematical
-relationships. This is in stark contrast to
-[unstructured](https://en.wikipedia.org/wiki/Unstructured_data) text and
-[key-value](https://en.wikipedia.org/wiki/Key-value_database) pairs typical of Big Data workflows.
+relationships. This is in stark contrast to [unstructured](https://en.wikipedia.org/wiki/Unstructured_data) text and [key-value](https://en.wikipedia.org/wiki/Key-value_database) pairs typical of Big Data workflows.
 
-|:---:|:---:|
-|[<img src="/img/sci_data_2.jpg" width="300">](/img/sci_data_2.jpg)|[<img src="/img/sci_data_relationships.png" width="300">](/img/sci_data_relationships.png)|
+|:---:|:---:|:---:|
+|[<img src="/img/sci_data_2.jpg" width="300">](/img/sci_data_2.jpg)|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|[<img src="/img/sci_data_relationships.png" width="300">](/img/sci_data_relationships.png)|
 |||
 
 These two forms of data, mesh-based scientific data versus unstructured text and key-value pairs,
