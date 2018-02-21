@@ -3,7 +3,7 @@ author: someone
 layout: post_full
 type: audio
 audio-embed: <iframe width="560" height="315" src="https://www.youtube.com/embed/bzy0qRcdG5M" frameborder="0" allowfullscreen></iframe>
-featimg: 6.jpg
+featimg: visit_line_counts.jpg
 title: Audio Full
 tags: [music, soundcloud]
 category: [audio]

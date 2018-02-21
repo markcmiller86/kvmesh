@@ -9,7 +9,7 @@ tag_dir: /tag
 category_dir: /category
 author_dir: /author
 author_title_prefix: 'Posted by '
-media_folder: /foo
+media_folder: /img
 author_default_avatar: /sci_data_2.jpg
 
 encoding: utf-8

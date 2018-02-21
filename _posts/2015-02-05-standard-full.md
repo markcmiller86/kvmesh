@@ -2,7 +2,7 @@
 author: person
 layout: post_full
 title: Full Width Post
-featimg: 2.jpg
+featimg: visit_line_counts.jpg 
 tags: [text]
 category: [standard]
 ---
