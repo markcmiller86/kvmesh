@@ -3,12 +3,12 @@ layout: page_full
 title: Scientific Data Primer
 ---
 Our intent here is to provide a short primer on scientific data sufficient for
-big data experts who are scientific data newbies. That’s a challenge. There are
+big data experts who may be scientific data newbies. That’s a challenge. There are
 a lot of technical details. This primer focuses on only the most simplistic
 aspects of scientific data essential to begin developing Spark or Hadoop applications
 to process the KVMesh database. This primer ignores many advanced issues such as
 non-cartesian coordinate systems, arbitrary polyhedra, high order elements, mixing
-materials, revolved or refined meshes regular and irregular topologies.
+materials, revolved or refined meshes and regular/implicit topologies.
 
 ## Meshes
 A mesh is a collection of points in 2 or 3 dimensional space connected together to form
