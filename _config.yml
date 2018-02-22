@@ -4,13 +4,15 @@ url: https://www.kvmesh.org
 baseurl:
 permalink: /:title/
 paginate: 8
-paginate_path: /page/:num/
+paginate_path: /examples/page:num/
 tag_dir: /tag
 category_dir: /category
 author_dir: /author
 author_title_prefix: 'Posted by '
 media_folder: /img
 author_default_avatar: /sci_data_2.jpg
+
+gems: [jekyll-paginate]
 
 encoding: utf-8
 defaults:
